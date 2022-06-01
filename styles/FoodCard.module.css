@@ -1,0 +1,88 @@
+/* Cardexamplemenusquared */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+  
+  .flex-col-hstart-vstart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card-example-menu-squared {
+    padding: 12.16px 12.16px 11.04px 12.16px;
+    box-sizing: border-box;
+    border-radius: 13.44px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0.84px solid rgba(237, 238, 242, 1);
+    box-shadow: -40px 70px 80px rgba(49, 57, 120, 0.3);
+    width: 294px;
+    height: 278.88px;
+  }
+  
+  .group-0104 {
+    width: 100%;
+  }
+  
+  .img-mask {
+    width: 267.12px;
+    height: 151.32px;
+    margin-bottom: 11px;
+  }
+  
+  .txt-596 {
+    font-size: 15.12px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: rgba(43, 43, 67, 1);
+    width: 268px;
+    word-wrap: break-word;
+    margin-bottom: 1px;
+  }
+  
+  .txt-1072 {
+    font-size: 10.92px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0.2px;
+    color: rgba(131, 133, 156, 1);
+    width: 268px;
+    word-wrap: break-word;
+    margin-bottom: 9px;
+  }
+  
+  .group-451 {
+    width: 100%;
+  }
+  
+  .txt-529 {
+    font-size: 20.16px;
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: rgba(43, 43, 67, 1);
+    width: 228px;
+    word-wrap: break-word;
+    margin-right: 13px;
+  }
+  
+  .circular-button-filled-light-accent-default {
+    width: 26.88px;
+    height: 26.88px;
+  }
+
