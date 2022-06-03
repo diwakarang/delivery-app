@@ -1,9 +1,10 @@
 import { Row, Col } from "antd";
+import HomeOffer from "../../components/homeOffer";
 
 const HomePage = () => {
   return (
     <Layout>
-          Home  Page
+         <HomeOffer></HomeOffer>
       </Layout>
   );
 };

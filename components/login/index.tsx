@@ -76,13 +76,13 @@ const Login = () => {
           </Form.Item>
 
           <Form.Item wrapperCol={{ offset: 0, span: 16 }}>
-            <Button type="primary" htmlType="submit" block>
+            <Button type="primary" htmlType="submit" block className="bg-sky-500 hover:bg-sky-600 active:bg-sky-600">
               Submit
             </Button>
           </Form.Item>
 
           <Form.Item wrapperCol={{ offset: 5, span: 16 }}>
-            <Link href="/forgot">Forgot password</Link>
+            <Link href="/forgot"><span className="text-blue-700 hover:text-blue-400 cursor-pointer">Forgot password</span></Link>
           </Form.Item>
         </Form>
         {/* <div className="mt-0">
@@ -96,7 +96,7 @@ const Login = () => {
           <span className="font-normal text-sm mr-2">
             Don’t have an account?
           </span>
-          <Link href="/signup">Sign up</Link>
+          <Link href="/signup"><span className="text-blue-700 hover:text-blue-400 cursor-pointer">Sign up</span></Link>
         </div>
       </div>
     </div>
